@@ -6,4 +6,4 @@ include:
 salt_vimfiles:
   file.recurse:
     - name: {{ vim.share_dir }}
-    - source: salt://vim/files/salt
+    - source: salt://{{ slspath }}/files/salt
